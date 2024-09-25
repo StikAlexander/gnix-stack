@@ -3,5 +3,5 @@ services:
   nginx:
     image: nginx:latest
     ports:
-      - "80:80"
+      - "8080:80"  # Cambiar aquí
     restart: always
